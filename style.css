@@ -1,0 +1,19 @@
+/* TRANSFORM */
+div{
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+}
+
+.a{
+    transform: rotate(20deg);
+}
+
+.b{
+    transform: skewY(20deg);
+}
+
+.c{
+    transform: scaleY(1.5);
+}
+ 
