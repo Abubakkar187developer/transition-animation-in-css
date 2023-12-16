@@ -1,24 +1,33 @@
 /* TRANSFORM */
-/* TRANSFORM PROPERTY */
-/* div{
-    width: 150px;
-    height: 80px;
-    background-color: yellow;
+    /* div.{
+width: 150px;
+height: 80px;
+background-color: yellow;
+transform: rotate(20deg);
 }
+
+div.b {
+width: 150px;
+height: 80px;
+background-color: yellow;
+transform: skewY(20deg);
+}
+
+div.c {
+width: 150px;
+height: 80px;
+background-color: yellow;
+transform: scaleY(1.5);}
 
 .a{
     transform: rotate(20deg);
 }
-
-.b{
+.b,.c{
     transform: skewY(20deg);
-}
-
-.c{
-    transform: scaleY(1.5);
 } */
 
-/*  TRANSFORM ORIRGIN */
+
+/* TRANSFORM ORIGIN */
 
 /* #div1 {
     position: relative;
@@ -39,7 +48,8 @@
   } */
 
   /* TRANSFORM STYLE */
-  #div1 {
+
+  /* #div1 {
     position: relative;
     height: 200px;
     width: 200px;
@@ -63,6 +73,106 @@
     border: 1px solid black;
     background-color: yellow;
     transform: rotateY(-60deg);
-  
+  } */
+
+
+  /* TRANSITION */
+
+  /* div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
   }
- 
+  
+  div:hover {
+    width: 300px;
+  } */
+
+
+  /*  transition delay*/
+/* 
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 5s;
+    transition-delay: 2s;
+  }
+  
+  div:hover {
+    width: 300px;
+  } */
+
+
+  /* TRANSITION DURATION */
+
+  /* div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 5s;
+  }
+  
+  div:hover {
+    width: 300px;
+  } */
+
+  /* TRANSITION PROVERTY */
+
+  /* div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
+  }
+  
+  div:hover {
+    width: 300px;
+  } */
+
+  /* TRANSFORM TIMING */
+
+  /* div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+    transition-timing-function: linear;
+  }
+  
+  div:hover {
+    width: 300px;
+  } */
+
+  /* ANIMATION */
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+/* FLEX BOX */
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
